@@ -1,4 +1,4 @@
-#HTML > Lesson 2 > Exercice 1
+#HTML > Leçon 2 > Exercice 1
 
 Créer une page HTML :
 * Avec pour titre de page : `_blank`
