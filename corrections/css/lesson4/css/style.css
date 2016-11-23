@@ -1,0 +1,31 @@
+html, body {
+  width : 100%;
+}
+
+header, nav, aside, main, footer {
+  padding : 10px;
+}
+
+header {
+  background-color: blue;
+}
+
+nav {
+  background-color: yellow;
+}
+
+aside.ads {
+  background-color: green;
+}
+
+aside.summary {
+  background-color: orange;
+}
+
+main {
+  background-color : purple;
+}
+
+footer {
+  background-color : gray;
+}
