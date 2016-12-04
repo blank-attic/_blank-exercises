@@ -1,4 +1,4 @@
-# CSS > Global > Exercice 7
+# CSS > Global > Exercise 7
 
 Poussez le style de votre site internet. Essayez de finaliser le plus possible celui-ci.
 
