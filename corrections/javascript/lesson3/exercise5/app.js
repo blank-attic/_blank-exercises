@@ -1,6 +1,6 @@
 var treel = parseInt(process.argv[2]),
     s = "",
-    bodyl = Math.floor(treel /3+1),
+    bodyl = Math.floor(treel /4+1),
     bodyh = Math.floor(treel /5+1);
 
 if (treel % 2 != 0) {
@@ -23,14 +23,14 @@ for (var i = 0; i < treel + bodyh; i++) {
 }
 
 function buildLeaves(treel, i) {
-    var tmps = "";
-    for (var k = 0; k <= treel-i; k++) {
-        tmps += " ";
-    }
-    for (var j = 0; j <= (i * 2 - 2); j++) {
-        tmps += "*";
-    }
-    return tmps;
+  var tmps = "";
+  for (var k = 0; k <= treel-i; k++) {
+    tmps += " ";
+  }
+  for (var j = 0; j <= (i * 2 - 2); j++) {
+    tmps += "*";
+  }
+  return tmps;
 }
 
 function buildWood(treel,bodyl) {
